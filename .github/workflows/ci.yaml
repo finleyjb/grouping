@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Grouping CI
 
 on:
   push:
