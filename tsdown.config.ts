@@ -13,4 +13,7 @@ export default defineConfig({
     profile: 'esm-only',
     level: 'warn',
   },
+  define: {
+    'import.meta.vitest': 'undefined',
+  },
 });
