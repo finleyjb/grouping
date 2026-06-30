@@ -5,6 +5,7 @@ export default defineConfig({
   exports: true,
   platform: 'neutral',
   entry: ['src/index.ts'],
+  format: ['esm'],
   publint: {
     level: 'warning',
   },
