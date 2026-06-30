@@ -17,7 +17,7 @@
     "test": "vitest",
     "verify": "pnpm run '/verify:.*/'",
     "verify:test": "vitest run --coverage",
-    "verify:check": "biome check"
+    "verify:check": "biome ci"
   },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.4",
