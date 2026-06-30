@@ -14,7 +14,10 @@
     "build": "tsdown",
     "dev": "tsdown --watch",
     "check": "biome check --fix",
-    "test": "vitest"
+    "test": "vitest",
+    "verify": "pnpm run '/verify:.*/'",
+    "verify:test": "vitest run",
+    "verify:check": "biome check"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.1",
