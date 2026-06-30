@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A grouping library for nanostores",
   "exports": {
-    ".": "./dist/index.mjs",
+    ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
   "files": [
@@ -20,8 +20,10 @@
     "verify:check": "biome check"
   },
   "devDependencies": {
+    "@arethetypeswrong/core": "^0.18.4",
     "@biomejs/biome": "2.5.1",
     "nanostores": "^1.4.0",
+    "publint": "^0.3.21",
     "tsdown": "^0.22.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.9"

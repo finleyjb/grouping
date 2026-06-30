@@ -5,4 +5,11 @@ export default defineConfig({
   exports: true,
   platform: 'neutral',
   entry: ['src/index.ts'],
+  publint: {
+    level: 'warning',
+  },
+  attw: {
+    profile: 'esm-only',
+    level: 'warn',
+  },
 });
