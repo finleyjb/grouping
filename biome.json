@@ -15,7 +15,20 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "preset": "recommended"
+      "preset": "recommended",
+      "complexity": {
+        "noForEach": "error",
+        "noUselessReturn": "error",
+        "noUselessStringConcat": "error"
+      },
+      "security": {
+        "noSecrets": "error"
+      },
+      "style": {
+        "noCommonJs": "error",
+        "noNegationElse": "error",
+        "noNestedTernary": "error"
+      }
     }
   },
   "javascript": {
