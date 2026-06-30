@@ -1,0 +1,21 @@
+{
+  "name": "@nanostores/grouping",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A grouping library for nanostores",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch"
+  },
+  "devDependencies": {
+    "tsdown": "^0.22.0",
+    "typescript": "^6.0.3"
+  }
+}
