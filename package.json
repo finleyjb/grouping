@@ -12,9 +12,11 @@
   ],
   "scripts": {
     "build": "tsdown",
-    "dev": "tsdown --watch"
+    "dev": "tsdown --watch",
+    "check": "biome check --fix"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.1",
     "tsdown": "^0.22.0",
     "typescript": "^6.0.3"
   }
