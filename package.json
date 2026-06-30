@@ -13,13 +13,15 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "check": "biome check --fix"
+    "check": "biome check --fix",
+    "test": "vitest"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.1",
     "nanostores": "^1.4.0",
     "tsdown": "^0.22.0",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
   },
   "peerDependencies": {
     "nanostores": "^1.4.0"
